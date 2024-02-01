@@ -1,0 +1,140 @@
+.section-heading {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.main-product-image {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  & > div {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  & img {
+    width: 100% !important;
+    object-fit: cover;
+  }
+}
+
+.other-product-images {
+  background-color: #fff;
+  padding: 20px;
+
+  & > div {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+}
+
+.main-product-details {
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  a {
+    font-size: 14px;
+    color: #777777;
+  }
+  h3 .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1c1c1b;
+    margin-bottom: 10px;
+  }
+
+  p.price {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  & .border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  .review-btn,
+  .t-review {
+    color: #777777;
+    font-size: 13px;
+  }
+
+  .product-heading {
+    font-size: 14px;
+    color: #1c1c1c;
+    margin-bottom: 0px;
+  }
+  .product-data {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 0px;
+  }
+}
+
+.reviews-wrapper {
+  h3 {
+    font-size: 26px;
+    color: #1c1c1b;
+    margin-bottom: 10px;
+  }
+
+  .review-inner-wrapper {
+    background-color: #fff;
+    padding: 30px;
+
+    & .review-head {
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      & h4 {
+        font-size: 18px;
+        color: #1c1c1b;
+      }
+
+      & p,
+      & a {
+        font-size: 14px;
+        color: #777777;
+      }
+    }
+
+    & .review-form {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      & h4 {
+        font-size: 16px;
+        color: #777777;
+      }
+    }
+
+    & .reviews {
+      & .review:not(:last-child) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      & p {
+        font-size: 14px;
+        color: #777777;
+      }
+    }
+  }
+}
+
+.description-wrapper {
+  & h4 {
+    font-size: 26px;
+    color: #1c1c1b;
+    margin-bottom: 10px;
+  }
+
+  & p {
+    font-size: 14px;
+    color: #777777;
+  }
+}

@@ -1,0 +1,371 @@
+// Variable Definitions
+$primary-color: #232f3e;
+$secondary-color: #febd69;
+$accent-color: #f60606;
+$text-color: #000;
+$background-color: #fff;
+$box-shadow-color: #0000001a;
+$border-color: #ededed;
+
+// Button Styles
+.button {
+  background-color: $primary-color;
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 15px;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $text-color;
+  }
+}
+
+// Main Banner Content Styles
+.main-banner-content {
+  top: 25%;
+  left: 25%;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $accent-color;
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: $text-color;
+    font-weight: 500;
+    text-transform: none;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: $text-color;
+  }
+}
+
+// Small Banner Content Styles
+.small-banner-content {
+  top: 10%;
+  left: 60%;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $accent-color;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -2px;
+    color: $text-color;
+    font-weight: 500;
+    text-transform: none;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: $text-color;
+  }
+}
+
+// Small Banner Styles
+.small-banner {
+  width: 49%;
+}
+
+// Categories Styles
+.categories {
+  background-color: $background-color;
+  box-shadow: 0 0 10px $box-shadow-color;
+  padding: 15px;
+
+  > div {
+    width: 25%;
+    padding: 10px 10px 10px 20px;
+
+    > div {
+      width: 60%;
+      padding: 10px 10px 10px 20px;
+    }
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4) {
+      border-bottom: 1px solid $border-color;
+    }
+
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7) {
+      border-right: 1px solid $border-color;
+    }
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      border-right: 1px solid $border-color;
+    }
+  }
+}
+
+// Section Heading Styles
+.section-heading {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.famous-card img {
+  width: 350px;
+  height: 440px;
+  border-radius: 10px;
+}
+
+.famous-content {
+  top: 10%;
+  left: 5%;
+  h6 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  h5 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #000;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+.famous-content-2 {
+  bottom: 5%;
+  left: 7%;
+
+  h6 {
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  h5 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #000;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+.famous-content-3 {
+  bottom: 20%;
+  left: 15%;
+
+  h6 {
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #000;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+.famous-content-4 {
+  bottom: 40%;
+  left: 15%;
+
+  h6 {
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+.marque-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+
+  // Brand Image Styles
+  .brand-img {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+.product-card {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+
+  &:hover .action-bar {
+    right: 15px;
+  }
+
+  & .product-image {
+    height: 270px;
+
+    img {
+      object-fit: contain;
+      width: 237.82px;
+      height: 237.82px;
+    }
+  }
+
+  .product-detail h6 {
+    color: #bf4800;
+    font-size: 13px;
+  }
+
+  .product-detail h5 {
+    font-size: 15px;
+    color: #1c1c1b;
+  }
+
+  .product-detail p.product-prices {
+    font-size: 16px;
+    color: #1c1c1b;
+  }
+
+  p.description {
+    font-size: 13px;
+    color: #777777;
+    margin-right: 20px;
+  }
+}
+
+.product-card .product-image > img:last-child {
+  display: none;
+}
+.product-card:hover .product-image > img:nth-child(1) {
+  display: none;
+}
+
+.product-card:hover .product-image > img:last-child {
+  display: block;
+}
+
+.action-bar {
+  top: 10%;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.wishlist-icon {
+  top: 2%;
+  right: 15px;
+}
+
+.gr-12 {
+  width: 100%;
+}
+
+.gr-6 {
+  width: 48.5%;
+}
+
+.gr-4 {
+  width: 32%;
+}
+
+.gr-3 {
+  width: 24%;
+}
+.gr-12 .action-bar {
+  top: 17%;
+}
+
+.gr-12 .product-card {
+  display: flex;
+  gap: 20px;
+}
+
+.gr-12 .product-card .product-image {
+  width: 270px;
+  height: auto;
+}
+
+.gr-4 .product-image {
+  width: 100%;
+}
+
+.gr-6 .product-image img {
+  margin: auto;
+  display: block;
+}

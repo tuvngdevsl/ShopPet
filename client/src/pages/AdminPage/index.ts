@@ -1,0 +1,21 @@
+// File: AdminPage/index.js
+export { default as AddCoupon } from "./AddCoupon";
+export { default as AddBlogCat } from "./AddBlogCat";
+export { default as AddBlog } from "./AddBlog";
+export { default as AddBrand } from "./AddBrand";
+export { default as AddCategory } from "./AddCategory";
+export { default as AddColor } from "./AddColor";
+export { default as AddProduct } from "./AddProduct";
+export { default as BlogList } from "./BlogList";
+export { default as BlogCatList } from "./BlogCatList";
+export { default as BrandList } from "./BrandList";
+export { default as CategoryList } from "./CategoryList";
+export { default as ColorList } from "./ColorList";
+export { default as CouponList } from "./CouponList";
+export { default as Customers } from "./Customers";
+export { default as Dashboard } from "./DashBoard";
+export { default as Enquiries } from "./Enquiries";
+export { default as Orders } from "./Orders";
+export { default as ProductList } from "./ProductList";
+export { default as ViewEnq } from "./ViewEnq";
+export { default as ViewOrder } from "./ViewOrder";

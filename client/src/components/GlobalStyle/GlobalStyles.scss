@@ -1,0 +1,189 @@
+@import "normalize.scss";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #edf3f5;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ant-layout {
+  height: 100vh;
+}
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+
+.sm-logo {
+  display: none;
+}
+
+.button {
+  background-color: #232f3e;
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 15px;
+}
+
+.ant-layout-header {
+  h5 {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  p {
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+  & div .badge {
+    top: 16px;
+    right: -6px;
+  }
+}
+.ant-menu-title-content {
+  font-size: 16px;
+}
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+  .sm-logo {
+    display: block;
+  }
+
+  .lg-logo {
+    display: none;
+  }
+}
+.red {
+  color: red;
+  font-family: Roboto !important;
+}
+
+.green {
+  color: green;
+  font-family: Roboto !important;
+}
+
+.button:hover {
+  background-color: #febd69;
+  color: #131921;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.form-control {
+  box-shadow: none;
+  border-color: $color-ced4da;
+}
+
+// Button Styles
+.button {
+  background-color: $primary-color;
+  color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 50px;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $text-color;
+  }
+}
+
+.policy {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.js-image-zoom__zoomed-image {
+  left: 50px !important;
+  padding: 10px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.cart-col-1 {
+  width: 40%;
+
+  p {
+    color: #777777;
+    font-size: 14px;
+  }
+}
+
+.cart-col-2 {
+  width: 10%;
+}
+
+.cart-col-3 {
+  width: 15%;
+}
+
+.cart-col-4 {
+  width: 15%;
+}
+
+.quill {
+  background-color: #fff;
+}
+
+.title {
+  font: 28px;
+  font-family: Roboto !important;
+  color: $color-212529;
+}
+
+.sub-title {
+  font: 24px;
+  font-family: Roboto !important;
+}
+
+.desc {
+  font: 14px;
+  font-family: Roboto !important;
+  color: $color-828599;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}
